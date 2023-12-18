@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SDO.Infrastructure.Sql.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace SDO.Infrastructure.Sql.Models
 	/// <summary>
 	/// Contiene i dati anagrafici SDO relativi agli assistiti/pazienti
 	/// </summary>
-	internal class SDO_DATI_ANAGRAFICI
+	public class SDO_DATI_ANAGRAFICI : IFileModel
 	{
 		/// <summary>
 		/// Identificativo univoco di tabella
@@ -195,5 +196,11 @@ namespace SDO.Infrastructure.Sql.Models
 		/// Matricola sanitaria (invertibile) del paziente crittografata
 		/// </summary>
 		public DateTime MATR_CRYPT { get; set; }
+
+		//inherited property
+		public int SequenceNumber { get; private set; }
+
+		public void SetSequenceNumber(int sequenceNumber)
+		=> SequenceNumber = sequenceNumber;
 	}
 }

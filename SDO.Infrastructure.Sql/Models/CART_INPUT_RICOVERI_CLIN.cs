@@ -7,14 +7,13 @@ using System.Net.Sockets;
 using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace SDO.Infrastructure.Sql.Models
 {
 	/// <summary>
 	/// Contiene i dati clinici degli assistiti relativamente al flusso SDO, provenienti dalla bronze zone.	La tabella è presente nel modello dati AS IS
 	/// </summary>
-	internal class CART_INPUT_RICOVERI_CLIN
+	public class CART_INPUT_RICOVERI_CLIN
 	{
 		/// <summary>
 		/// Identificativo univoco di tabella

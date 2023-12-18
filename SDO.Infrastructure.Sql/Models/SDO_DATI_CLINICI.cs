@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SDO.Infrastructure.Sql.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace SDO.Infrastructure.Sql.Models
 	/// <summary>
 	/// Contiene i dati clinici SDO relativi agli assistiti/pazienti
 	/// </summary>
-	internal class SDO_DATI_CLINICI
+	public class SDO_DATI_CLINICI : IFileModel
 	{
 		/// <summary>
 		/// Identificativo univoco di tabella
@@ -1336,5 +1337,11 @@ namespace SDO.Infrastructure.Sql.Models
 		/// Frazione di eiezione
 		/// </summary>
 		public string? FRAZ_EI { get; set; }
+
+		//inherited property
+		public int SequenceNumber { get; private set; }
+
+		public void SetSequenceNumber(int sequenceNumber)
+		=> SequenceNumber = sequenceNumber;
 	}
 }

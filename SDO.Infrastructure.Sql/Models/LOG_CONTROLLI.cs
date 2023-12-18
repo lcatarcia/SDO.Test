@@ -11,7 +11,7 @@ namespace SDO.Infrastructure.Sql.Models
 	/// Contiene le informazioni di log in merito soltanto agli errori emersi rispetto ai controlli effettuati sui file SDO da acquisire, caricati tramite il portale della nuova web application.
 	// Questa tabella deve consentire la comunicazione degli errori per i controlli eseguiti su un’intera spedizione
 	/// </summary>
-	internal class LOG_CONTROLLI
+	public class LOG_CONTROLLI
 	{
 		/// <summary>
 		/// Identificativo univoco di tabella

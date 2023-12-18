@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SDO.Infrastructure.Sql.Models
 {
-	internal class CART_INPUT_RICOVERI_ANAG
+	public class CART_INPUT_RICOVERI_ANAG
 	{
 		/// <summary>
 		/// Identificativo univoco di tabella
