@@ -667,7 +667,10 @@ namespace SDO.Infrastructure.Sql.Models
 		/// </summary>
 		public string? CINTCP_O_CH1 { get; set; }
 
-		inserire gli SHA2
+		/// <summary>
+		/// Identificativo Chirurgo 1 intervento chirurgico principale di dimissione (crittografato)
+		/// </summary>
+		public string? CINTCP_O_CH1_SHA2 { get; set; }
 
 		/// <summary>
 		/// Identificativo Chirurgo 2 intervento chirurgico principale di dimissione
@@ -675,14 +678,29 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTCP_O_CH2 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 2 intervento chirurgico principale di dimissione (crittografato)
+		/// </summary>
+		public string? CINTCP_O_CH2_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Chirurgo 3 intervento chirurgico principale di dimissione
 		/// </summary>
 		public string? CINTCP_O_CH3 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 3 intervento chirurgico principale di dimissione (crittografato)
+		/// </summary>
+		public string? CINTCP_O_CH3_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Anestesista dell'intervento chirurgico principale di dimissione
 		/// </summary>
 		public string? CINTCP_O_ANEST { get; set; }
+
+		/// <summary>
+		/// Identificativo Anestesista dell'intervento chirurgico principale di dimissione (crittografato)
+		/// </summary>
+		public string? CINTCP_O_ANEST_SHA2 { get; set; }
 
 		/// <summary>
 		/// Check List sala operatoria intervento chirurgico principale di dimissione
@@ -705,9 +723,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC1_O_CH1 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 1 di altro intervento chirurgico 1 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC1_O_CH1_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Chirurgo 2 di altro intervento chirurgico 1 di dimissione
 		/// </summary>
 		public string? CINTC1_O_CH2 { get; set; }
+
+		/// <summary>
+		/// Identificativo Chirurgo 2 di altro intervento chirurgico 1 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC1_O_CH2_SHA2 { get; set; }
 
 		/// <summary>
 		/// Identificativo Chirurgo 3 di altro intervento chirurgico 1 di dimissione
@@ -715,9 +743,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC1_O_CH3 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 3 di altro intervento chirurgico 1 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC1_O_CH3_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Anestesista di altro intervento chirurgico 1 di dimissione
 		/// </summary>
 		public string? CINTC1_O_ANEST { get; set; }
+
+		/// <summary>
+		/// Identificativo Anestesista di altro intervento chirurgico 1 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC1_O_ANEST_SHA2 { get; set; }
 
 		/// <summary>
 		/// Check List sala operatoria di altro intervento chirurgico 1 di dimissione
@@ -740,9 +778,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC2_O_CH1 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 1 di altro intervento chirurgico 2 di dimissione
+		/// </summary>
+		public string? CINTC2_O_CH1_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Chirurgo 2 di altro intervento chirurgico 2 di dimissione
 		/// </summary>
 		public string? CINTC2_O_CH2 { get; set; }
+
+		/// <summary>
+		/// Identificativo Chirurgo 2 di altro intervento chirurgico 2 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC2_O_CH2_SHA2 { get; set; }
 
 		/// <summary>
 		/// Identificativo Chirurgo 3 di altro intervento chirurgico 2 di dimissione
@@ -750,9 +798,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC2_O_CH3 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 3 di altro intervento chirurgico 2 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC2_O_CH3_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Anestesista di altro intervento chirurgico 2 di dimissione
 		/// </summary>
 		public string? CINTC2_O_ANEST { get; set; }
+
+		/// <summary>
+		/// Identificativo Anestesista di altro intervento chirurgico 2 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC2_O_ANEST_SHA2 { get; set; }
 
 		/// <summary>
 		/// Check List sala operatoria di altro intervento chirurgico 2 di dimissione
@@ -775,9 +833,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC3_O_CH1 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 1 di altro intervento chirurgico 3 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC3_O_CH1_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Chirurgo 2 di altro intervento chirurgico 3 di dimissione
 		/// </summary>
 		public string? CINTC3_O_CH2 { get; set; }
+
+		/// <summary>
+		/// Identificativo Chirurgo 2 di altro intervento chirurgico 3 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC3_O_CH2_SHA2 { get; set; }
 
 		/// <summary>
 		/// Identificativo Chirurgo 3 di altro intervento chirurgico 3 di dimissione
@@ -785,9 +853,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC3_O_CH3 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 3 di altro intervento chirurgico 3 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC3_O_CH3_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Anestesista di altro intervento chirurgico 3 di dimissione
 		/// </summary>
 		public string? CINTC3_O_ANEST { get; set; }
+
+		/// <summary>
+		/// Identificativo Anestesista di altro intervento chirurgico 3 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC3_O_ANEST_SHA2 { get; set; }
 
 		/// <summary>
 		/// Check List sala operatoria di altro intervento chirurgico 3 di dimissione
@@ -810,9 +888,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC4_O_CH1 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 1 di altro intervento chirurgico 4 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC4_O_CH1_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Chirurgo 2 di altro intervento chirurgico 4 di dimissione
 		/// </summary>
 		public string? CINTC4_O_CH2 { get; set; }
+
+		/// <summary>
+		/// Identificativo Chirurgo 2 di altro intervento chirurgico 4 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC4_O_CH2_SHA2 { get; set; }
 
 		/// <summary>
 		/// Identificativo Chirurgo 3 di altro intervento chirurgico 4 di dimissione
@@ -820,9 +908,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC4_O_CH3 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 3 di altro intervento chirurgico 4 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC4_O_CH3_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Anestesista di altro intervento chirurgico 4 di dimissione
 		/// </summary>
 		public string? CINTC4_O_ANEST { get; set; }
+
+		/// <summary>
+		/// Identificativo Anestesista di altro intervento chirurgico 4 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC4_O_ANEST_SHA2 { get; set; }
 
 		/// <summary>
 		/// Check List sala operatoria di altro intervento chirurgico 4 di dimissione
@@ -845,9 +943,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC5_O_CH1 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 1 di altro intervento chirurgico 5 di dimissione
+		/// </summary>
+		public string? CINTC5_O_CH1_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Chirurgo 2 di altro intervento chirurgico 5 di dimissione
 		/// </summary>
 		public string? CINTC5_O_CH2 { get; set; }
+
+		/// <summary>
+		/// Identificativo Chirurgo 2 di altro intervento chirurgico 5 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC5_O_CH2_SHA2 { get; set; }
 
 		/// <summary>
 		/// Identificativo Chirurgo 3 di altro intervento chirurgico 5 di dimissione
@@ -855,9 +963,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC5_O_CH3 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 3 di altro intervento chirurgico 5 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC5_O_CH3_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Anestesista di altro intervento chirurgico 5 di dimissione
 		/// </summary>
 		public string? CINTC5_O_ANEST { get; set; }
+
+		/// <summary>
+		/// Identificativo Anestesista di altro intervento chirurgico 5 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC5_O_ANEST_SHA2 { get; set; }
 
 		/// <summary>
 		/// Check List sala operatoria di altro intervento chirurgico 5 di dimissione
@@ -885,9 +1003,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC6_O_CH1 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 1 di altro intervento chirurgico 6 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC6_O_CH1_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Chirurgo 2 di altro intervento chirurgico 6 di dimissione
 		/// </summary>
 		public string? CINTC6_O_CH2 { get; set; }
+
+		/// <summary>
+		/// Identificativo Chirurgo 2 di altro intervento chirurgico 6 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC6_O_CH2_SHA2 { get; set; }
 
 		/// <summary>
 		/// Identificativo Chirurgo 3 di altro intervento chirurgico 6 di dimissione
@@ -895,9 +1023,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC6_O_CH3 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 3 di altro intervento chirurgico 6 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC6_O_CH3_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Anestesista di altro intervento chirurgico 6 di dimissione
 		/// </summary>
 		public string? CINTC6_O_ANEST { get; set; }
+
+		/// <summary>
+		/// Identificativo Anestesista di altro intervento chirurgico 6 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC6_O_ANEST_SHA2 { get; set; }
 
 		/// <summary>
 		/// Check List sala operatoria di altro intervento chirurgico 6 di dimissione
@@ -925,9 +1063,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC7_O_CH1 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 1 di altro intervento chirurgico 7 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC7_O_CH1_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Chirurgo 2 di altro intervento chirurgico 7 di dimissione
 		/// </summary>
 		public string? CINTC7_O_CH2 { get; set; }
+
+		/// <summary>
+		/// Identificativo Chirurgo 2 di altro intervento chirurgico 7 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC7_O_CH2_SHA2 { get; set; }
 
 		/// <summary>
 		/// Identificativo Chirurgo 3 di altro intervento chirurgico 7 di dimissione
@@ -935,9 +1083,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC7_O_CH3 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 3 di altro intervento chirurgico 7 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC7_O_CH3_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Anestesista di altro intervento chirurgico 7 di dimissione
 		/// </summary>
 		public string? CINTC7_O_ANEST { get; set; }
+
+		/// <summary>
+		/// Identificativo Anestesista di altro intervento chirurgico 7 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC7_O_ANEST_SHA2 { get; set; }
 
 		/// <summary>
 		/// Check List sala operatoria di altro intervento chirurgico 7 di dimissione
@@ -965,9 +1123,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC8_O_CH1 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 1 di altro intervento chirurgico 8 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC8_O_CH1_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Chirurgo 2 di altro intervento chirurgico 8 di dimissione
 		/// </summary>
 		public string? CINTC8_O_CH2 { get; set; }
+
+		/// <summary>
+		/// Identificativo Chirurgo 2 di altro intervento chirurgico 8 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC8_O_CH2_SHA2 { get; set; }
 
 		/// <summary>
 		/// Identificativo Chirurgo 3 di altro intervento chirurgico 8 di dimissione
@@ -975,9 +1143,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC8_O_CH3 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 3 di altro intervento chirurgico 8 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC8_O_CH3_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Anestesista di altro intervento chirurgico 8 di dimissione
 		/// </summary>
 		public string? CINTC8_O_ANEST { get; set; }
+
+		/// <summary>
+		/// Identificativo Anestesista di altro intervento chirurgico 8 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC8_O_ANEST_SHA2 { get; set; }
 
 		/// <summary>
 		/// Check List sala operatoria di altro intervento chirurgico 8 di dimissione
@@ -1005,9 +1183,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC9_O_CH1 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 1 di altro intervento chirurgico 9 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC9_O_CH1_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Chirurgo 2 di altro intervento chirurgico 9 di dimissione 
 		/// </summary>
 		public string? CINTC9_O_CH2 { get; set; }
+
+		/// <summary>
+		/// Identificativo Chirurgo 2 di altro intervento chirurgico 9 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC9_O_CH2_SHA2 { get; set; }
 
 		/// <summary>
 		/// Identificativo Chirurgo 3 di altro intervento chirurgico 9 di dimissione
@@ -1015,9 +1203,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC9_O_CH3 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 3 di altro intervento chirurgico 9 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC9_O_CH3_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Anestesista di altro intervento chirurgico 9 di dimissione
 		/// </summary>
 		public string? CINTC9_O_ANEST { get; set; }
+
+		/// <summary>
+		/// Identificativo Anestesista di altro intervento chirurgico 9 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC9_O_ANEST_SHA2 { get; set; }
 
 		/// <summary>
 		/// Check List sala operatoria di altro intervento chirurgico 9 di dimissione
@@ -1045,9 +1243,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC10_O_CH1 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 1 di altro intervento chirurgico 10 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC10_O_CH1_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Chirurgo 2 di altro intervento chirurgico 10 di dimissione
 		/// </summary>
 		public string? CINTC10_O_CH2 { get; set; }
+
+		/// <summary>
+		/// Identificativo Chirurgo 2 di altro intervento chirurgico 10 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC10_O_CH2_SHA2 { get; set; }
 
 		/// <summary>
 		/// Identificativo Chirurgo 3 di altro intervento chirurgico 10 di dimissione
@@ -1055,9 +1263,19 @@ namespace SDO.Infrastructure.Sql.Models
 		public string? CINTC10_O_CH3 { get; set; }
 
 		/// <summary>
+		/// Identificativo Chirurgo 3 di altro intervento chirurgico 10 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC10_O_CH3_SHA2 { get; set; }
+
+		/// <summary>
 		/// Identificativo Anestesista di altro intervento chirurgico 10 di dimissione
 		/// </summary>
 		public string? CINTC10_O_ANEST { get; set; }
+
+		/// <summary>
+		/// Identificativo Anestesista di altro intervento chirurgico 10 di dimissione (crittografato)
+		/// </summary>
+		public string? CINTC10_O_ANEST_SHA2 { get; set; }
 
 		/// <summary>
 		/// Check List sala operatoria di altro intervento chirurgico 10 di dimissione
@@ -1118,20 +1336,5 @@ namespace SDO.Infrastructure.Sql.Models
 		/// Frazione di eiezione
 		/// </summary>
 		public string? FRAZ_EI { get; set; }
-
-		/// <summary>
-		/// Contiene il numero di errori quando la spedizione passa dallo stato 0 allo stato 1
-		/// </summary>
-		public int CHECK_ERR { get; set; }
-
-		/// <summary>
-		/// Contenuto della singola riga del singolo file
-		/// </summary>
-		public string RIGA_IMPORT { get; set; }
-
-		/// <summary>
-		/// Data importazione
-		/// </summary>
-		public DateTime DATA_IMPORT { get; set; }
 	}
 }
