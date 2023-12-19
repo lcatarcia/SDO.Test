@@ -1,4 +1,5 @@
 ﻿using SDO.Controls;
+using SDO.Controls.Controls.Level1;
 using SDO.Infrastructure.Sql.Models;
 
 SDO_DATI_ANAGRAFICI bioRecords = new();
@@ -36,8 +37,10 @@ CART_INPUT_RICOVERI_CLIN inputRicoveriClin = new();
 // controlli su singolo campo per singolo file (tracciato)
 
 // controlli livello 1 dati anagrafici
-Level1Controls level1Controls = new(bioRecords);
-bool level1Result = level1Controls.MakeControls();
+//Level1Controls level1Controls = new(bioRecords);
+//bool level1Result = level1Controls.MakeControls();
+ControlsManager controlsManager = new();
+controlsManager.MakeControls(bioRecords);
 
 // controlli livello 1 dati clinici
 
