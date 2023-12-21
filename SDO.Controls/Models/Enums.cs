@@ -17,5 +17,20 @@ namespace SDO.Controls.Models
 			GREATER_EQUAL,
 			LESS_EQUAL
 		}
+
+		public enum FileType
+		{
+			Biographical,
+			Clinical
+		}
+
+		public enum ControlType
+		{
+			Mandatory,
+			TypeAndLength,
+			Format,
+			Domain,
+			Business
+		}
 	}
 }

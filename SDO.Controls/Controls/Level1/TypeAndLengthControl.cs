@@ -152,7 +152,7 @@ namespace SDO.Controls.Controls.Level1
 				{
 					if (required)
 					{
-#warning - qui si sta accavallando il controllo sull'obbligatorietà
+#warning - qui si sta accavallando il controllo sull'obbligatorietà fatto nello step precedente
 						return false;
 					}
 				}
